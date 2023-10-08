@@ -1,0 +1,8 @@
+.content-box {
+  padding: 1rem;
+  margin: 2rem;
+  border: 1px solid #f0f4f8;
+  border-radius: 15px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
+  background: linear-gradient(0.25turn, #eae6f6, #f2f5f8, #f6f7fb);
+}
