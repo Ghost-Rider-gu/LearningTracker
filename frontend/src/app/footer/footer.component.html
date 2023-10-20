@@ -1,1 +1,12 @@
-<p>FOOTER BLOCK</p>
+<footer>
+  <ul>
+    <li>
+      &copy; {{ currentYear }} Iurii Golubnichenko
+    </li>
+    <li *ngFor="let profile of socialProfiles">
+      <a [href]="profile.link" target="_blank">
+        <fa-icon [icon]="profile.icon"></fa-icon>
+      </a>
+    </li>
+  </ul>
+</footer>
